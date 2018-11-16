@@ -234,12 +234,12 @@ class ResizeObserverController {
             return;
         }
 
-        window.addEventListener("resize", this.refresh);
+        // window.addEventListener("resize", this.refresh);
 
-        document.addEventListener("DOMSubtreeModified", this.refresh);
-        this.mutationEventsAdded_ = true;
+        // document.addEventListener("DOMSubtreeModified", this.refresh);
+        // this.mutationEventsAdded_ = true;
 
-        this.connected_ = true;
+        // this.connected_ = true;
     }
 
     disconnect_() {

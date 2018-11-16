@@ -27940,10 +27940,10 @@ var ResizeObserverController = (function () {
         if (this.connected_) {
             return;
         }
-        window.addEventListener("resize", this.refresh);
-        document.addEventListener("DOMSubtreeModified", this.refresh);
-        this.mutationEventsAdded_ = true;
-        this.connected_ = true;
+        // window.addEventListener("resize", this.refresh);
+        // document.addEventListener("DOMSubtreeModified", this.refresh);
+        // this.mutationEventsAdded_ = true;
+        // this.connected_ = true;
     };
     ResizeObserverController.prototype.disconnect_ = function () {
         if (!this.connected_) {
